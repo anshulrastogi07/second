@@ -4,8 +4,7 @@ provider "aws" {
 
 resource "aws_key_pair" "terraformkey" {
   key_name   = "my-terraformkey"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcGV9Z7Htd9912dO8Q17szded561/QREs1FA5uwnUaKLpw+0pY4U/2YK9S7MAfK9vr4vjbDw0HOphq+aESWklAd/XyOU0Teqggy7tM0S20eG1v32kd2ayTv8VmEn8qsJEjxNPVT9+A5ad2vcUc8xRv5y4vMO67MQRZFCskYKadmOeC9RnGlEQgpe6wEhr2//k/uqUeBgu2qgqynfGTGDYW+Et7Y6LOu4HwwGW8u7f+KCS/N76IFgsbT0QOuybR3zNiKly68ybGm5pv3v6HRymyw6q+8LpUWw6uvZ4JINxRZ105wzw7z9uFjB/Wp971tDlpPHuK+5Bype7GFyayUU/x somar@DESKTOP-MDBIKUP"
-
+  public_key = ""
 }
 
 resource "aws_security_group" "terraform_sg" {
